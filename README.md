@@ -68,7 +68,7 @@ class Example {
         // The RGB sequence may vary on some strips. Valid values
         // are "rgb", "rbg", "grb", "gbr", "bgr", "brg".
         // Default is "rgb".
-        // RGBW strips are not currently supported.
+        // For RGBW strips "rgbw" and "grbw" is supported
         this.config.strip = 'grb';
 
         // Configure ws281x
