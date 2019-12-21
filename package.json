@@ -1,7 +1,7 @@
 {
-  "name": "rpi-ws281x",
-  "version": "1.0.30",
-  "description": "rpi-ws281x",
+  "name": "rpi-sk6812",
+  "version": "1.0.0",
+  "description": "rpi-sk6812",
   "main": "index.js",
   "scripts": {
     "goto-github": "make goto-github",
@@ -16,21 +16,22 @@
     "ws2811",
     "ws2812",
     "ws281x",
+    "sk6812",
     "neopixel",
     "neopixels",
     "adafruit"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/meg768/rpi-ws281x.git"
+    "url": "git+https://github.com/simion-iulian/rpi-sk6812"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/meg768/rpi-ws281x/issues"
+    "url": "https://github.com/simion-iulian/rpi-sk6812/issues"
   },
   "dependencies": {
     "nan": "^2.14.0"
   },  
-  "homepage": "https://github.com/meg768/rpi-ws281x#readme"
+  "homepage": "https://github.com/simion-iulian/rpi-sk6812#readme"
 }

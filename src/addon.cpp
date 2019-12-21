@@ -134,7 +134,12 @@ NAN_METHOD(Addon::configure)
             if (stripTypeValue == "bgr") {
                 ws2811.channel[0].strip_type = WS2811_STRIP_BGR;
             }
-
+            if (stripTypeValue == "grbw") {
+                ws2811.channel[0].strip_type = SK6812_STRIP_GRBW;
+            }
+            if (stripTypeValue == "rgbw") {
+                ws2811.channel[0].strip_type = SK6812_STRIP_RGBW;
+            }
         }
     }
     ws2811_return_t result = ws2811_init(&ws2811);
