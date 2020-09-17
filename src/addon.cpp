@@ -162,7 +162,6 @@ NAN_METHOD(Addon::reset)
     if (ws2811.freq != 0) {
         memset(ws2811.channel[0].leds, 0, sizeof(uint32_t) * ws2811.channel[0].count);
         ws2811_render(&ws2811);
-        ws2811_fini(&ws2811);
     }
 
     ws2811.freq = 0;
